@@ -1,0 +1,45 @@
+.main-heading{
+    text-align: center;
+}
+
+.menu-tables{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-table{
+    border:1px solid black;
+    margin: 12px;
+    background-color: rgb(174, 173, 176);
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    padding-top: 40px;
+}
+.menu-table .section-title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.chicken-title{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+.beef-title{
+    background-color: orange;
+    color: black;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+.pizza-title{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    border: 1px solid black;
+}
